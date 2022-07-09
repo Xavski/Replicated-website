@@ -1,7 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 *{
+    box-sizing: border-box;
     margin:0;
     padding:0;
     font-family: 'Inter', sans-serif;
 }
+
+a{
+    text-decoration: none;  
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+nav{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    padding: 0 24px;
+    
+}
+/*
+
+LANDING
+
+*/
+
+#landing{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.nav__container{
+    width:100%;
+    max-width:1200px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.nav__link--tag{
+    color: #243E63;
+    font-weight: 500;
+}
+
+.nav__img--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__link--tag{
+    margin: 0 24px;
+    color: black;
+    font-size: 14px;
+}
+
+
+
+.nav__logo{
+    width:48px;
+}
+
+
+.nav__link--spacing{
+    margin-left:48px;
+}
+
+.nav__button{
+    background-color:#6415ff;
+    border-radius: 24px;
+    font-size:14px;
+    padding: 12px 8px;
+    border: none;
+    color:white;
+}
+
+.nav__link--primary{
+    color:white;
+}
+
+
 
