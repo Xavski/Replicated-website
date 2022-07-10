@@ -4,6 +4,7 @@
     margin:0;
     padding:0;
     font-family: 'Inter', sans-serif;
+    border: 0 solid #e5e7eb;
 }
 
 a{
@@ -17,11 +18,18 @@ li{
 
 nav{
     width:100%;
-    max-width:1200px;
+    max-width:1400px;
     margin:auto;
-    padding: 0 24px;
-    
 }
+button{
+    background-color:#6415ff;
+    border-radius: 24px;
+    font-size:14px;
+    padding: 12px 8px;
+    border: none;
+    color:white;
+}
+
 /*
 
 LANDING
@@ -29,15 +37,16 @@ LANDING
 */
 
 #landing{
-    
-    display: flex;
-    justify-content: center;
+    width:100%;
+    max-width:1400px;
+    margin:auto;
+    padding: 0 24px;
 }
 
 .nav__container{
     width:100%;
     max-width:1200px;
-    padding: 24px;
+    padding: 32px 0px 100px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,18 +87,94 @@ LANDING
     margin-left:48px;
 }
 
-.nav__button{
-    background-color:#6415ff;
-    border-radius: 24px;
-    font-size:14px;
-    padding: 12px 8px;
-    border: none;
-    color:white;
-}
 
 .nav__link--primary{
     color:white;
 }
+.nav__logo--name{
+    font-weight: bold;
+    font-size: 24px;
+    color:#243e63;
+    margin-left:8px;
+}
 
+/*
 
+Header
 
+*/
+
+header{
+    display: flex;
+}
+
+.header__description{
+    width:40%;
+    justify-content: center;
+    align-items: center;
+    margin-top:16px;
+}
+
+.header__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+}
+
+.header__img--main{
+    width:500px;
+}
+
+.header__heading{
+    font-size:48px;
+    margin-bottom:48px;
+}
+
+.purple{
+    color:#6415ff;
+}
+
+.header__para{
+    color:#243E63;
+    margin-bottom:32px;
+    font-size:18px;
+}
+
+input{
+    border-radius:1000px;
+    padding:20px 200px 20px 20px; 
+    margin-bottom:80px; 
+    border-width:2px; 
+    font-size:16px;
+    font-weight:500; 
+    border-color: lightgray;
+    position:absolute;
+    
+}
+
+.header__button{
+    position:relative;
+    margin-left:285px;
+    margin-top:6px;
+    font-weight:700;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.header__small--text{
+    margin-top:100px;
+    font-weight:700;
+    color:#A0AEC0;
+    font-size: 12px;
+    margin-bottom: 16px;    
+}
+
+.header__logo{
+    width:400px;
+    opacity:0.5;
+}
+
+.header__img--main{
+    width:800px 
+}
