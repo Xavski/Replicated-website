@@ -18,7 +18,7 @@ li{
 
 nav{
     width:100%;
-    max-width:1400px;
+    max-width:1200px;
     margin:auto;
 }
 button{
@@ -30,6 +30,29 @@ button{
     color:white;
 }
 
+h1{
+    font-size:48px;
+    color:#243E63;
+}
+
+h2{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:#6415ff;
+}
+
+.container{
+    padding:0px;    
+}
+.row{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
+p{
+    font-size:16px;
+    color:#A0AEC0;
+}
 /*
 
 LANDING
@@ -38,7 +61,7 @@ LANDING
 
 #landing{
     width:100%;
-    max-width:1400px;
+    max-width:1200px;
     margin:auto;
     padding: 0 24px;
 }
@@ -178,3 +201,134 @@ input{
 .header__img--main{
     width:800px 
 }
+
+/*
+
+FEATURES
+
+*/
+
+#features{
+    width:100%;
+    margin-top: 160px;
+}
+
+.features__heading{
+    margin-top:16px;
+}
+
+.features__title{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features__description{
+    display: flex;
+    width:calc(100%/3);
+    padding:24px;
+}
+
+.features__para{ 
+    padding:32px 0 80px 0;
+    max-width:600px;
+    text-align: center;
+}
+
+.features__img{
+    border: 1px black solid;
+    border-radius:10000px;
+    padding:24px;
+    border-color:#c5ccd4;
+}
+
+.features__img--wrapper{
+    display: flex;
+    padding-right:24px;
+}
+
+.features__sections{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-size:24px;
+    padding-bottom:24px;
+}
+
+.features__subheading--description{
+    width:200px
+
+}
+
+.features__description--container{
+    margin-bottom:200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*
+
+QUALITY WORK
+
+*/
+
+.values__heading{
+    font-size:16px;
+    margin-bottom:24px;
+}
+
+.values__description{
+    width:50%;
+}
+
+.values__header{
+    font-size:56px;
+    margin-bottom:32px;
+}
+
+.values__para{
+    font-size:18px;
+    color:#7C8BA1;
+    margin-bottom:32px;
+}
+
+.fas.fa-dollar-sign{
+    border:1px solid rgba(154,230,180); 
+    background-color:rgba(154,230,180) ;
+    border-radius:1000px;
+    padding:12px 16px 12px 16px;
+    color:#243E63;
+}
+
+.values__affordable{
+    font-size:18px;
+
+}
+
+.fas.fa-suitcase{
+    border:1px solid #FEB2B2;
+    border-radius:1000px;
+    padding: 12px;
+    background-color:#FEB2B2;
+    color:#d62e2e;
+}
+
+.values__subheading--para{
+    color:#7C8BA1;
+}
+
+.values__dollar--wrapper{
+    display: flex;
+
+}
+
+.values__affordable{
+    margin-top:10px;
+    margin-left:16px;
+}
+
+
