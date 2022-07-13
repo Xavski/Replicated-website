@@ -482,3 +482,37 @@ STEPS
     margin-bottom:48px;
     
 }
+
+/*
+
+PRICES
+
+*/
+#prices{
+    margin-bottom:200px;
+}
+
+.prices__title--wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prices__para{
+    text-align: center;
+    width:600px;
+    margin-bottom:48px;
+}
+
+.prices__container--wrapper{
+    width:calc(100%/3);
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    border-radius:8px;
+    padding-top:8px;
+}
+
+.prices__bracket--header{
+    background-color:white;
+}
+
