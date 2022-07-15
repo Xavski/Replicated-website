@@ -21,7 +21,7 @@ li{
 
 nav{
     width:100%;
-    max-width:1200px;
+    max-width:1400px;
     margin:auto;
 }
 button{
@@ -49,7 +49,7 @@ h2{
 }
 .row{
     width:100%;
-    max-width:1200px;
+    max-width:1400px;
     margin:0 auto;
 }
 p{
@@ -70,14 +70,14 @@ LANDING
 
 #landing{
     width:100%;
-    max-width:1200px;
+    max-width:1400px;
     margin:auto;
     padding: 0 24px;
 }
 
 .nav__container{
     width:100%;
-    max-width:1200px;
+    max-width:1400px;
     padding: 32px 0px 100px 0px;
     display: flex;
     justify-content: space-between;
@@ -176,26 +176,28 @@ input{
     font-size:18px;
 }
 
+.header__input--wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
 input{
-    border-radius:1000px;
-    padding:20px 150px 20px 20px; 
-    margin-bottom:80px; 
-    border-width:2px; 
     font-size:16px;
-    font-weight:500; 
-    border-color: lightgray;
-    position:absolute;
-    
+    border: 2px solid lightgray;
+    padding: 20px 12rem 20px 20px;
+    width:100%;
+    border-radius:100px;
 }
 
 .header__button{
-    position:relative;
-    margin-left:285px;
-    margin-top:6px;
+    position: absolute; 
+    padding:16px 40px;  
     font-weight:700;
-    font-size: 16px;
-    border-radius:100px;
-    padding: 8px 50px;
+    font-size:16px;
+    border-radius:100p;
+    right:8px;
 }
 
 .header__small--text{
@@ -306,15 +308,21 @@ QUALITY WORK
 
 .quality__img--wrapper{
     width:50%;
+    margin-right:32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .quality__img{
-    width:600px;
+    max-width:600px;
     margin-left:24px;
 }
 .quality__description--wrapper{
     width:50%;
     display: flex;
     flex-direction:column;
+    margin-left:32px;
+    margin-right:32px;
 }
 .quality__para{
     font-size:18px;
@@ -344,6 +352,8 @@ VALUES
 }
 
 .values__description{
+    margin-left:32px;
+    margin-right:60px;
     width:50%;
 }
 
@@ -390,7 +400,7 @@ VALUES
 
 .values__affordable{
     margin-top:10px;
-    margin-left:16px;
+    margin-left:12px;
 }
 
 .values__suitcase--wrapper{
@@ -398,6 +408,7 @@ VALUES
 }
 
 .values__dollar--container{
+    margin-right:38px;
     width:50%;
 }
 
@@ -419,12 +430,14 @@ VALUES
     display: flex;
 }
 .values__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:50%;
 }
 .values__img--size{
-    margin-left:100px;
-    margin-top:50px;
-    width:600px;
+    padding-right:32px;
+    max-width:900px;
 }
 
 /*
@@ -439,18 +452,22 @@ STEPS
 .steps__img--wrapper{
     width:50%;
     margin-right:32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .steps__description--wrapper{
     width:50%;
+    padding-right:32px;
 }
 .steps__container{
     display: flex;
 }
 .steps__img{
-    width:750px;
-    padding-top:50px;
-    padding-right:150px;
+    max-width:750px;
+    padding-right:32px;
+    padding-left:32px;
 }
 
 .steps__section{
@@ -524,7 +541,7 @@ PRICES
     border-radius:8px;
     padding-top:8px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.16);
-    margin-left:24px;
+    margin-left:32px;
 }
 
 .prices__container--wrapper-blue{
@@ -533,11 +550,12 @@ PRICES
     border-radius:8px;
     padding-top:8px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.16);
-    margin-left:24px;
+    margin-left:32px;
 }
 
 .prices__bracket--3{
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    margin-right:32px;
 }
 
 .prices__bracket--header{
@@ -769,11 +787,14 @@ FAQS
 */
 
 #faqs{
-    background-color:#6415ff;
-    max-width:1200px;
+    max-width:1400px;
     margin:0 auto;
+}
+
+.faqs__contact--container{
+    background-color:#6415ff;
     border-radius:8px;
-    margin-bottom:180px;
+    margin: 0 32px 180px 32px;
 }
 
 .faqs__contact--wrapper{
@@ -793,6 +814,7 @@ FAQS
     font-weight:700;
     padding:100px 0 100px 150px;
     color:white;
+    margin-right:32px;
 }
 
 .faqs__btn--wrapper{
@@ -800,6 +822,7 @@ FAQS
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right:32px;
 }
 
 .faqs__get-started{
