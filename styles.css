@@ -243,7 +243,8 @@ FEATURES
 .features__description{
     display: flex;
     width:calc(100%/3);
-    padding:24px;
+    padding:24px 0;
+
 }
 
 .features__para{ 
