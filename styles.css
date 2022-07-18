@@ -7,12 +7,19 @@
     border: 0 solid #e5e7eb;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 img{
     width:100%;
 }
 a{
-    text-decoration: none;  
-    
+    text-decoration: none;
+}
+
+a:hover{
+    color:#7028ff;
+    border-bottom:2px solid #7028ff;
 }
 
 li{
@@ -31,6 +38,14 @@ button{
     padding: 12px 8px;
     border: none;
     color:white;
+    cursor:pointer;
+
+}
+
+
+button:hover{
+    background-color: #36039e;
+    transition:300ms;
 }
 
 h1{
@@ -62,6 +77,8 @@ li{
     color:#718096;
     font-weight:500;
 }
+
+
 /*
 
 LANDING
@@ -106,6 +123,7 @@ LANDING
     margin: 0 24px;
     color: black;
     font-size: 14px;
+    padding-bottom:4px;
 }
 
 
@@ -122,6 +140,7 @@ LANDING
 
 .nav__link--primary{
     color:white;
+    text-decoration:none !important;
 }
 .nav__logo--name{
     font-weight: bold;
