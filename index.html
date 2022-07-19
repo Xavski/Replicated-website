@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -20,28 +21,50 @@
                 </figure>
                 <ul class="nav__links">
                     <li class="nav__link">
-                        <li><a href="#" class="nav__link--tag">About</a></li>
+                    <li><a href="#" class="nav__link--tag">About</a></li>
                     </li>
                     <li class="nav__link">
-                        <li><a href="#" class="nav__link--tag">Blog</a></li>
+                    <li><a href="#" class="nav__link--tag">Blog</a></li>
                     </li>
                     <li class="nav__link">
-                        <li><a href="#" class="nav__link--tag">Pricing</a></li>
+                    <li><a href="#" class="nav__link--tag">Pricing</a></li>
                     </li>
                     <li class="nav__link">
-                        <li><a href="#" class="nav__link--tag">Contact Us</a></li>
+                    <li><a href="#" class="nav__link--tag">Contact Us</a></li>
                     </li>
                     <li class="nav__link">
-                        <li><a href="#" class="nav__link--tag nav__link--spacing">Login</a></li>
+                    <li><a href="#" class="nav__link--tag nav__link--spacing">Login</a></li>
                     </li>
                     <li class="nav__link">
-                        <button class="nav__button"><li><a href="#" class="nav__link--tag nav__link--primary">Sign
-                                Up</a></li></button>
+                        <button class="nav__button">
+                    <li><a href="#" class="nav__link--tag nav__link--primary">Sign
+                            Up</a></li></button>
                     </li>
                 </ul>
+                
+                
+                <button class="btn__menu btn__burger" onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="menu__backdrop">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fas fa-times"></i>
+                    </button>
 
+                    <ul class="menu__links">
+                        <li class="menu__list"><a href="" class="menu__link">About</a></li>
+                        <li class="menu__list"><a href="" class="menu__link">Blog</a></li>
+                        <li class="menu__list"><a href="" class="menu__link">Pricing</a></li>
+                        <li class="menu__list"><a href="" class="menu__link">Contact Us</a></li>
+                        <li class="menu__list"><a href="" class="menu__link">Login</a></li>
+                        <li class="menu__list"><a href="" class="menu__link">Sign Up</a></li>
+
+                    </ul>
+                </div>
             </div>
         </nav>
+
+
         <header>
 
 
@@ -623,13 +646,13 @@
                 <div class="footer__heading">
                     MAIN
                 </div>
-                
-                    <ul class="footer__list">
-                        <li class="footer__list--wrapper"><a class="footer__lists" href="">Blog</a></li>
-                        <li class="footer__list--wrapper"><a class="footer__lists" href="">FAQs</a></li>
-                        <li class="footer__list--wrapper"><a class="footer__lists" href="">Support</a></li>
-                        <li class="footer__list--wrapper"><a class="footer__lists" href="">About Us</a></li>
-                    </ul>
+
+                <ul class="footer__list">
+                    <li class="footer__list--wrapper"><a class="footer__lists" href="">Blog</a></li>
+                    <li class="footer__list--wrapper"><a class="footer__lists" href="">FAQs</a></li>
+                    <li class="footer__list--wrapper"><a class="footer__lists" href="">Support</a></li>
+                    <li class="footer__list--wrapper"><a class="footer__lists" href="">About Us</a></li>
+                </ul>
             </div>
         </div>
 
